@@ -1,0 +1,16 @@
+{
+  "name": "pinger-for-online-lectures",
+  "version": "1.0.0",
+  "description": "VERY stupid and simple CLI script, which will show you the current ping times to 8.8.8.8 as an indicator for your screen sharing connection speed. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Herlings",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ping-lite": "^2.0.2"
+  }
+}
