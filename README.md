@@ -25,5 +25,19 @@ Create a pull request! I will be happy to add it if it makes this stupid little 
 2. Run `npm install`
 3. Run `npm start`
 
+# Configuration
 
+You can configure the colors used for output by editing the `config.json` file. The default configuration is as follows:
 
+```json
+{
+  "colors": {
+    "slow": "red",
+    "middle": "yellow",
+    "fast": "green",
+    "offline": "blue"
+  }
+}
+```
+
+To change the colors, simply modify the values in the `config.json` file to your desired colors.

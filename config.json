@@ -1,0 +1,8 @@
+{
+  "colors": {
+    "slow": "red",
+    "middle": "yellow",
+    "fast": "green",
+    "offline": "blue"
+  }
+}
